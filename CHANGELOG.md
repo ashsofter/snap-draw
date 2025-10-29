@@ -1,90 +1,141 @@
-# Changelog
+v1.0.1 Release Notes (English)
 
-All notable changes to SnapDraw will be documented in this file.
+  Release Title:
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+  SnapDraw v1.0.1 - Fixed Area Capture & Snap Box
 
-## [1.0.0] - 2024-10-25
+  Release Description:
 
-### 🎉 Initial Release
+  ## 🎯 SnapDraw v1.0.1
 
-SnapDraw is a powerful screenshot annotation tool for macOS that keeps your captures floating on top of all windows.
+  We're excited to bring you powerful new productivity features
+  that make screenshot management even better!
 
-### ✨ Free Features
+  ---
 
-- **Smart Area Capture** - Visual guide lines for pixel-perfect screen capture
-- **Always On Top** - Keep screenshots floating above all windows
-- **Adjustable Opacity** - Scroll to adjust transparency (see through your captures)
-- **Drag & Resize** - Freely move and resize floating screenshots
-- **Quick Save** - Save screenshots instantly with ⌘S
-- **Copy to Clipboard** - One-click copy with ⌘C
-- **Keyboard Shortcuts** - Efficient workflow with customizable shortcuts
-- **Multi-Display Support** - Works seamlessly across multiple monitors
-- **Screen Recording Permission** - User-friendly permission setup guide
+  ## ✨ What's New
 
-### 💎 Pro Features ($1.99 - Lifetime)
+  ### 🎯 Fixed Area Capture
+  - **Create reusable capture frames** for any screen region
+  - Capture the same area repeatedly without repositioning
+  - Perfect for monitoring dashboards, documentation, and
+  repetitive workflows
+  - Resizable frames with drag-and-drop positioning
+  - **Multi-window support**: Create multiple fixed area frames
+  simultaneously
 
-- **Drawing Tools** - Pen and highlighter with multiple widths
-- **Eraser** - Remove annotations with custom size control
-- **Text Annotations** - Add text anywhere on your captures
-- **Arrows & Shapes** - Draw arrows, rectangles, and circles
-- **Color Picker** - Choose any color for your annotations
-- **Drawing Mode Toggle** - Quick enable/disable drawing tools
-- **Undo/Redo** - Full drawing history support
-- **Lifetime Updates** - All future updates included
+  ### ⏱️ Timer Sequence Capture
+  - **Automated screenshot capture** at custom intervals (1-60
+  seconds)
+  - Perfect for creating tutorials, time-lapse documentation, or
+  monitoring changes
+  - Visual countdown timer and progress indicator
+  - Easy start/stop controls
 
-### 🔐 License System
+  ### 📦 Snap Box (Thumbnail Widget)
+  - **Minimize captures to compact thumbnails** for better
+  workspace management
+  - Always-on-top thumbnail widget with all your screenshots
+  - Quick access to minimized captures
+  - Double-click thumbnails to restore full-size windows
+  - Drag thumbnails to reorder
+  - Customizable size and positioning
 
-- **LemonSqueezy Integration** - Secure license validation
-- **Single Device Activation** - One license per device
-- **Offline Grace Period** - 7-day offline validation
-- **Device Fingerprinting** - Secure device identification
+  ---
 
-### 🔄 Auto-Update System
+  ## 🚀 Improvements
 
-- **GitHub Releases Integration** - Automatic update detection
-- **Background Downloads** - Updates download in the background
-- **User Control** - Choose when to install updates
-- **Manual Check** - Check for updates from menu bar
+  ### Multi-Monitor Support
+  - **Enhanced drag behavior** across multiple displays
+  - Fixed area frames work seamlessly on any monitor
+  - Improved toolbar positioning on multi-monitor setups
 
-### 🎨 User Interface
+  ### Toolbar Enhancements
+  - Better visual feedback during dragging
+  - Improved positioning logic
+  - More intuitive controls
 
-- **Modern macOS Design** - Native macOS look and feel
-- **Menu Bar App** - Quick access from menu bar
-- **Preferences Window** - Easy settings management
-- **Welcome Dialog** - First-time user onboarding
-- **Permission Guides** - Step-by-step setup instructions
+  ### User Interface
+  - Refined capture frame design
+  - Better visual indicators for active states
+  - Improved folder selection dialogs (always on top)
+  - Updated favicon and icons
 
-### 🛠️ Technical Features
+  ---
 
-- Built with Electron 28
-- Native macOS integration
-- Secure local storage (electron-store)
-- Environment-based configuration
-- Development and production modes
+  ## 💎 Pro Features
 
-### 📋 System Requirements
+  ### LemonSqueezy Integration
+  - **One-click purchase** directly from the app
+  - Seamless license activation
+  - Product validation to ensure license integrity
+  - Support for lifetime licenses with device activation
 
-- macOS 12 (Monterey) or later
-- Screen Recording permission
-- Internet connection (for license activation and updates)
+  ---
 
----
+  ## 🐛 Bug Fixes
 
-## How to Update
+  - Fixed multi-monitor dragging issues with fixed area frames
+  - Improved Snap Box sizing and layout
+  - Better handling of window states across different monitors
+  - Enhanced toolbar stability
 
-- **Automatic**: The app checks for updates on startup and notifies you
-- **Manual**: Click "Check for Updates" in the menu bar
+  ---
 
----
+  ## 📦 Installation
 
-## Support
+  ### New Users
+  1. Download `SnapDraw-1.0.1-arm64.dmg` (Apple Silicon) or
+  `SnapDraw-1.0.1-x64.dmg` (Intel)
+  2. Open the DMG file
+  3. Drag SnapDraw to Applications folder
+  4. Launch SnapDraw from Applications
 
-- **Issues**: https://github.com/ashsofter/snap-draw/issues
-- **Email**: info@ashsoft.us
-- **Website**: https://snapdraw.app (coming soon)
+  ### Existing Users
+  The app will automatically detect this update and prompt you to
+   install it.
 
----
+  ---
 
-**Full Changelog**: https://github.com/ashsofter/snap-draw/commits/v1.0.0
+  ## 🔄 Upgrade from v1.0.0
+
+  This release includes significant new features and
+  improvements. All existing settings and licenses will be
+  preserved during the update.
+
+  ---
+
+  ## 💡 How to Use New Features
+
+  ### Fixed Area Capture
+  1. Click the tray icon → **"Fixed Area Capture"**
+  2. Drag to select your target area
+  3. The frame stays on screen - click **"Capture"** anytime to
+  take a screenshot
+  4. Create multiple frames for different screen regions
+
+  ### Timer Sequence Capture
+  1. Click **"Fixed Area Capture"** toolbar → **Timer icon (⏱️)**
+  2. Set your desired interval (1-60 seconds)
+  3. Click **"Start"** - screenshots will be captured
+  automatically
+  4. Click **"Stop"** when done
+
+  ### Snap Box
+  1. Right-click any floating capture → **"Minimize to
+  Thumbnail"**
+  2. Access minimized captures from the Snap Box widget
+  3. Double-click thumbnails to restore
+  4. Enable/disable "Snap Box Always on Top" from tray menu
+
+  ---
+
+  ## 🙏 Thank You
+
+  Thank you for using SnapDraw! Your feedback helps us build
+  better tools for creators.
+
+  **Report issues**:
+  https://github.com/ashsofter/snap-draw/issues
+  **Get Pro**: Unlock all drawing & annotation tools for just
+  $1.99
