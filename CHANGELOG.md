@@ -5,6 +5,39 @@ All notable changes to SnapDraw will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.4] - 2025-11-03
+
+### Added
+- **7-Day Free Trial System** - Automatic trial period for new users
+  - Automatic trial starts on first launch (7 days)
+  - Trial status display in tray menu and settings
+  - Trial ending reminders (when 1 day remaining)
+  - Trial expiration dialog with upgrade options
+  - All Pro features available during trial period
+  - Trial testing utilities for development (`npm run dev:trial-*`)
+- **Enhanced License Management** - Improved Pro license system
+  - LemonSqueezy integration for license validation
+  - Device activation limit enforcement
+  - Offline validation with 7-day grace period
+  - Product ID verification for license security
+  - Real-time license status in tray menu
+- **Trial Testing Tools** - Development utilities for testing trial states
+  - Test scripts for active, ending, and expired trial states
+  - `TRIAL_TESTING.md` documentation with comprehensive testing guide
+  - `scripts/set-trial-state.js` utility for quick state changes
+
+### Changed
+- Tray menu now displays trial/license status dynamically
+- Preferences window updated with improved license tab UI
+- License activation flow enhanced with better error messages
+- Floating window UI updated to show trial/license prompts
+- Pricing updated to $1.99 for Pro license
+
+### Fixed
+- License validation improved with proper error handling
+- Device fingerprint generation made more reliable
+- License status refresh properly updates UI across all windows
+
 ## [1.0.3] - 2025-01-02
 
 ### Added
