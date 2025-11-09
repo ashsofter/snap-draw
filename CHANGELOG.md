@@ -5,6 +5,25 @@ All notable changes to SnapDraw will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.5] - 2025-11-09
+
+### Added
+- **Color Picker Tool** - Advanced color selection with multiple format support
+  - Pick colors from anywhere on your screen
+  - Support for multiple color formats: HEX, RGB, RGBA, HSL
+  - Multi-display support for seamless color picking across monitors
+  - Real-time color preview with magnified pixel view
+  - Format switching in Preferences
+  - Click to copy color value to clipboard
+- **Share Menu** - Quick sharing options for screenshots
+  - Share floating screenshots directly from the app
+  - macOS native share integration
+  - Access via floating window context menu
+
+### Changed
+- Landing page updated with v1.0.4 download links
+- Deployment process documentation improved
+
 ## [1.0.4] - 2025-11-03
 
 ### Added
